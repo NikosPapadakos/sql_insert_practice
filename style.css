@@ -1,0 +1,51 @@
+#main{
+    padding-top: 50px;
+    background-color: white;
+    background-size: cover;
+    
+}
+
+img {
+    width: 200px; /* You can set the dimensions to whatever you want */
+    height: 200px;
+    object-fit: cover;
+    transition: all .2s ease-in-out;
+    
+
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
+
+.hide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.header {
+    padding-top: 20rem;
+}
+
+
+.sendH1{
+    padding-top: 10rem;
+    padding-left: 5rem;
+}
+
+.do {
+    display: flex;
+}
+
+#success{
+    margin-top: 300px;
+    margin-left: 36rem;
+}
+
+#error{
+    margin-top: 300px;
+    margin-left: 36rem;
+}
